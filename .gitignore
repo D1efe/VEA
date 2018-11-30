@@ -11,5 +11,6 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 .class
+.classpath
 .project
 .nbproject
