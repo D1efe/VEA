@@ -1,0 +1,52 @@
+.root {
+    -fx-background-color: #4b4b4b;
+    -fx-font-size: 10pt;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+    
+}
+.button {
+    -fx-background-color: linear-gradient(#1a55cc, #010101);
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.75),1,0,1,1);
+}
+.label {
+    -fx-text-fill: #ffffff;
+}
+.menu, .menu-bar, .menu-item {
+    -fx-background-color: #777c76;
+    -fx-font-weight: bold;
+    -fx-background-border: bold;
+}
+.menu-bar {
+    -fx-border-color: #777c80;
+    -fx-background-radius: 5;
+}
+.scroll-bar {
+    -fx-background-color: #010101
+}
+.split-pane-divider {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+.table-view, .column-header {
+    -fx-background-color: linear-gradient(#1a55cc, #010101);
+    -fx-border-color: #010101;
+}
+.table-view {
+    -fx-border-width: 7;
+    -fx-background-radius: 8;
+}
+.table-cell {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(#9a9a9a, #010101);
+}
+#resultLabel {
+    -fx-font-size: 14pt;
+    -fx-font-color: #ffffff;
+    -fx-font-weight: bold;
+}
+
+
